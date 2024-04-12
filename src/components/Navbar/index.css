@@ -1,0 +1,108 @@
+.navbar-container{
+    height: 100vh;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.nav-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo>span{
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 18px;
+}
+.close-button:hover{
+    background-color: #f4f4f5;
+    border-radius: 50%;
+}
+.action-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.create-button, .discover-button{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    background-color: #f4f4f5;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 500;
+    gap: 5px;
+    cursor: pointer;
+}
+.discover-button{
+    width: 80%;
+    border-radius: 10px;
+}
+.create-button:hover, .discover-button:hover{
+    background-color: lightgray;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+}
+.profile-container>button{
+    border: none;
+    background-color: #ececee;
+    padding: 10px;
+    border-radius: 10px;
+}
+.subscribe-plus{
+    font-size: 12px;
+    color: goldenrod;
+    font-weight: 800;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-logo{
+    background-image: linear-gradient(to right, white, green);
+    border-radius: 100%;
+    padding: 10px;
+}
+.open-container{
+    background-color: #f4f4f5;
+}
+.open-button{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    top: 0px;
+    border: none;
+    background: none;
+}
+.open-button:hover{
+    background-color: #c8c8cf;
+    border-radius: 50%;
+}

@@ -1,0 +1,31 @@
+.try-these-container{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    border: none;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.try-these-card{
+    min-width: 312px;
+    display: flex;
+    gap: 10px;
+    background-color: #ececee;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.try-description{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    font-weight: 500;
+}
+.try-para{
+    color: #585962;
+}
+.try-img{
+    border-radius: 5px;
+}

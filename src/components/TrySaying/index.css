@@ -1,0 +1,52 @@
+.try-saying-container{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    border: none;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.try-saying{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.try-saying-head{
+    padding: 15px;
+    font-weight: 800;
+    margin: 10px;
+}
+.try-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ececee;
+    padding: 15px;
+    min-width: 312px;
+    border-radius: 10px;
+}
+.try-say-card{
+    display: flex;
+    gap: 10px;
+}
+.try-descrip{
+    display: flex;
+    flex-direction: column;
+}
+.hding{
+    font-weight: 600;
+}
+.say-para{
+    color: #585962;
+}
+.try-say-img{
+    border-radius: 50%;
+}
+.try-say-paras>p{
+    background-color: #e2e8f0;
+    color: #202024;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+}

@@ -1,0 +1,39 @@
+.for-you-container{
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.for-heading{
+    font-weight: 800;
+}
+.for-container{
+    border: none;
+    background-color: #a2a2ac;
+    display: flex;
+    gap: 10px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 15px;
+    min-width: 312px;
+}
+.for-image{
+    height: 150px;
+    width: 130px;
+    border-radius: 10px;
+}
+.for-name{
+    font-weight: bold;
+}
+.font-para{
+    font-size: 12px;
+}
+.for-desc{
+    font-size: 14px;
+}
+.comment{
+    font-size: 12px;
+    margin-right: 60px;
+}
