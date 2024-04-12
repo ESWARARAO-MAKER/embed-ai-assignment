@@ -1,7 +1,7 @@
 import './index.css'
 import { CiSearch } from "react-icons/ci";
 import { forYouList } from '../../list';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FaRegComment } from "react-icons/fa";
 import { TryThese } from '../TryThese';
 import {Featured} from '../Featured'
@@ -12,6 +12,27 @@ import { CreateCharacter } from '../CreateCharacter';
 
 const Discover = () => {
     const [isSignedin, setIsSignedin] = useState(true)
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 770) {
+                setIsSignedin(false);
+            }
+            else{
+                setIsSignedin(true)
+            }
+        };
+
+        
+        window.addEventListener('resize', handleResize);
+
+        
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, [setIsSignedin]);
+
+
     return(
         <div className='discover-container'>
             <div className='m-3'>
