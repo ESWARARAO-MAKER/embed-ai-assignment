@@ -93,6 +93,7 @@
 }
 .open-container{
     background-color: #f4f4f5;
+    position: absolute;
 }
 .open-button{
     font-size: 20px;
