@@ -1,7 +1,5 @@
 import './index.css'
 import { BsStars } from "react-icons/bs";
-import { PiWaveformFill } from "react-icons/pi";
-
 
 export const CreateCharacter = () => {
     return(
