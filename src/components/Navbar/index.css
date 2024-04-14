@@ -93,7 +93,7 @@
 }
 .open-container{
     background-color: #f4f4f5;
-    position: absolute;
+    max-width: 150px;
 }
 .open-button{
     font-size: 20px;
@@ -106,10 +106,4 @@
 .open-button:hover{
     background-color: #c8c8cf;
     border-radius: 50%;
-}
-
-@media screen and (max-width: 570px) {
-    .open-container{
-        background:none;
-    }
 }

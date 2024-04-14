@@ -35,7 +35,7 @@ const Discover = () => {
 
     return(
         <div className='discover-container'>
-            <div className='m-3'>
+            <div className='m-3 discover'>
                 <div className={isSignedin ? 'profile-search-container': 'search-signedout'}>
                     {isSignedin && <div className='discover-profile'>
                         <span>Welcome back,</span>
