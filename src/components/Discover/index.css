@@ -142,3 +142,12 @@
         justify-content: flex-end;
     }
 }
+
+@media screen and (max-width:570px){
+    .for-image{
+        height: 90px;
+    }
+    .discover-container{
+        width: 100vw;
+    }
+}

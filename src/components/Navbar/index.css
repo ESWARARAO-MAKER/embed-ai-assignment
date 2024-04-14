@@ -107,3 +107,9 @@
     background-color: #c8c8cf;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 570px) {
+    .open-container{
+        background:none;
+    }
+}
